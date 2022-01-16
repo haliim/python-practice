@@ -9,3 +9,4 @@ cd ~/python-practice/django
 pipenv shell    #To enter the virtual env under the django dir
 django-admin startproject <proj name> .
 python manage.py runserver <port num>   #port by default is 8000
+python manage.py startapp playground
